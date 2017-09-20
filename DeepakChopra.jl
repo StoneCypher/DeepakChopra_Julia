@@ -1,5 +1,6 @@
-
-print(   rand( ["Experiential truth ", "The physical world ", "Non-judgment ",       "Quantum physics " ]) )
-print(   rand( ["nurtures an ",        "projects onto ",      "imparts reality to ", "constructs with " ]) )
-print(   rand( ["abundance of ",       "the barrier of ",     "self-righteous ",     "potential "       ]) )
-println( rand( ["marvel.",             "choices.",            "creativity.",         "actions."         ]) )
+[
+["Experiential truth ", "The physical world ", "Non-judgment ",       "Quantum physics " ],
+["nurtures an ",        "projects onto ",      "imparts reality to ", "constructs with " ],
+["abundance of ",       "the barrier of ",     "self-righteous ",     "potential "       ],
+["marvel.",             "choices.",            "creativity.",         "actions."         ]
+] .|> rand |> join |> println
